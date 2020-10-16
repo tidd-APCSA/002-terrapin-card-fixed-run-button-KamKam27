@@ -5,7 +5,7 @@ public TerrapinCard(double balanceAtStart) {
   this.balance = balanceAtStart;
 }
 public void payEconomical() {
- if(balance <= 1){
+ if(balance - 2.50 < 1){
    balance = balance;
 } else {
   balance -= 2.50;
@@ -13,7 +13,7 @@ public void payEconomical() {
 }
 
 public void payGourmet() {
- if(balance <= 1){
+ if(balance - 4.00 < 1){
    balance = balance;
 } else {
   balance -= 4.00;
