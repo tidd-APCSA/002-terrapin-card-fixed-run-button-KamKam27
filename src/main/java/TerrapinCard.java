@@ -2,7 +2,7 @@ public class TerrapinCard {
 private double balance;
 
 public TerrapinCard(double balanceAtStart) {
-  this.balance = StartingBalance;
+  this.balance = balanceAtStart;
 }
 public void payEconomical() {
  if(balance <= 1){
