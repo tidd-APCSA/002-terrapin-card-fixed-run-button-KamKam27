@@ -1,7 +1,7 @@
 public class TerrapinCard {
 private double balance;
 
-public TerrapinCard(double StartingBalance) {
+public TerrapinCard(double balanceAtStart) {
   this.balance = StartingBalance;
 }
 public void payEconomical() {
@@ -28,6 +28,10 @@ if(balance + amount > 150){
 }else {
   balance += amount;
 }
+}
+
+public double getBalance() {
+return balance;
 }
 
 public String toString() {
