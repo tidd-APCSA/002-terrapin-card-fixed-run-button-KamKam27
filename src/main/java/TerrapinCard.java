@@ -35,7 +35,7 @@ return balance;
 }
 
 public String toString() {
-  return "The card has " + balance;
+  return "The card has " + balance + " dollars";
 }
 }
 
